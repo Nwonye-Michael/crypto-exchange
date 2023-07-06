@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.time-updated {
+  position: absolute;
+
+  animation: time 8s ease-in-out infinite reverse;
+}
+@keyframes time {
+  from {
+    left: -63%;
+  }
+  to {
+    left: 100%;
+  }
+}
